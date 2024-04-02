@@ -1,5 +1,5 @@
 {% set name = "ximage" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ximage-{{ version }}.tar.gz
-  sha256: aac64207f4216337eaf534aa1eb9e89dd38f7fc0db41e121f95b7b002e339f47
+  sha256: fe335670d1a0b6254dc7a4d1ddcbef82dfd55578c9404eaccf5edb2c7a965cb9
 
 build:
   noarch: python
